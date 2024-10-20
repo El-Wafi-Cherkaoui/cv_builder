@@ -7,10 +7,10 @@ import Practical_experience from './components/Practical_experience'
 
 function App() {
   const [personal_info, setPersonal_info] = useState({
-    first_name : 'el wafi', 
-    last_name : 'cherkaoui', 
-    email : 'elwafi@gmail.com',
-    phone : '0745124511'
+    first_name : '', 
+    last_name : '', 
+    email : '',
+    phone : ''
   })
   const [educational_info, setEducational_info] = useState([])
   const [practical_info, setPractical_experience] = useState([])
