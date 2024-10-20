@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { jsx } from "react/jsx-runtime"
 
-export default function Practical_experience({ed_ex_id = 0, ed_info_list, set_ed_info}){
+export default function Educational_experience({ed_ex_id = 0, ed_info_list, set_ed_info}){
     function change_school_name(new_name){
         new_p.name = new_name 
         update_info()
@@ -50,7 +50,7 @@ export default function Practical_experience({ed_ex_id = 0, ed_info_list, set_ed
                 <button onClick={(e)=>{setNew_t(true); e.target.disabled = true}}>
                     +
                 </button>
-                {new_t && <Practical_experience ed_ex_id={new_p.ed_ex_id+1} ed_info_list={ed_info_list} set_ed_info={set_ed_info}/>}
+                {new_t && <Educational_experience ed_ex_id={new_p.ed_ex_id+1} ed_info_list={ed_info_list} set_ed_info={set_ed_info}/>}
             </>
     )
 }

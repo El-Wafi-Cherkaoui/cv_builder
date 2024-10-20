@@ -11,6 +11,11 @@
     width: 30vw;
     height: 100vh;
     background-color: #EF9C66;
+    overflow: scroll;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 .input_panel > *{
     display: flex;
@@ -18,6 +23,8 @@
     padding: 1vw;
     gap: .5vh;
     border-radius: 2vw;
+    box-shadow: -.1vw .2vw .5vw ;
+
 }
 .input_panel input{
     border-radius: .5vw;
@@ -29,16 +36,21 @@
     height: 100vh;
     background-color: #78ABA8;
     padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    overflow: scroll;
 }
-.educational_experience{
+.educational_experience, .practical_experience{
     border: 1px solid;
+    border-radius: 1vw;
     display: flex;
     justify-content:start;
     gap: .5vw;
     flex-wrap:wrap;
     padding: 1vw;
 }
-.ed_ex{
+.ed_ex, .p_ex{
     border: 1px solid;
     border-radius: 1vw;
     padding: 1vw;
