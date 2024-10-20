@@ -12,14 +12,14 @@
     height: 100vh;
     background-color: #EF9C66;
 }
-.personal_info{
+.input_panel > *{
     display: flex;
     flex-direction: column;
     padding: 1vw;
     gap: .5vh;
     border-radius: 2vw;
 }
-.personal_info input{
+.input_panel input{
     border-radius: .5vw;
     border: none;
     padding: .5vh 1vw;
@@ -28,4 +28,22 @@
     width: 70vw;
     height: 100vh;
     background-color: #78ABA8;
+    padding: 1vw;
+}
+.educational_experience{
+    border: 1px solid;
+    display: flex;
+    justify-content:start;
+    gap: .5vw;
+    flex-wrap:wrap;
+    padding: 1vw;
+}
+.ed_ex{
+    border: 1px solid;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: .2vw .3vw .2vw;
 }
