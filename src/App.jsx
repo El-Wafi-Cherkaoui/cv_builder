@@ -6,18 +6,6 @@ import Educational_experience from './components/Educational_experience'
 import Practical_experience from './components/Practical_experience'
 
 function App() {
-  const [count, setCount] = useState(0)
-  // let data = {
-    
-  //   school_name : 'CMC', 
-  //   title_study : 'DEV',
-  //   date_study : '2024',
-  //   company_name : 'LA digital',
-  //   position_title : 'Back-end developer',
-  //   main_responsibilities : ['maintenance', 'clean up'],
-  //   from : '12/01/2024',
-  //   to : '13/01/2024'
-  // }
   const [personal_info, setPersonal_info] = useState({
     first_name : 'el wafi', 
     last_name : 'cherkaoui', 
